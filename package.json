@@ -1,0 +1,28 @@
+{
+  "name": "jsy-ui",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:comp": "pnpm --filter @@jsy-ui/components build",
+    "dev:comp": "pnpm --filter @jsy-ui/components dev",
+    "dev:website": "pnpm --filter @jsy-ui/website dev"
+  },
+  "keywords": [],
+  "author": "jiangsongyang",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.11.20",
+    "@types/react": "^18.2.60",
+    "@types/react-dom": "^18.2.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.12.0",
+    "rollup-plugin-less-modules": "^0.1.11",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}

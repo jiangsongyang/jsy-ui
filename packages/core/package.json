@@ -1,0 +1,23 @@
+{
+  "name": "@jsy-ui/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/es/bundle.js",
+  "module": "./dist/es/bundle.js",
+  "types": "./dist/es/types",
+  "scripts": {
+    "dev": "rollup --config rollup.config.ts --configPlugin typescript -w",
+    "build": "rollup --config rollup.config.ts --configPlugin typescript"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
